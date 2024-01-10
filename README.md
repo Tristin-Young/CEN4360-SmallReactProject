@@ -1,7 +1,7 @@
 # CEN4360 Small React App Assignment
 
-Tristin Young
-CEN4360
+Tristin Young - 
+CEN4360 - 
 Spring 2024
 
 # Overview
