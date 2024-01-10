@@ -45,20 +45,27 @@ function Form() {
     //the submit button has an onClick event handler that calls the submit function
     //the recall button has an onClick event handler that calls the recall function
     return (
-        <form>
+        <form class="form">
+            <label for="name">Name: </label>
             <input
+                id="name"
                 value={name}
                 type="text"
                 placeholder="John Doe"
                 onChange={(event) => setName(event.target.value)}
             />
+            
+            <label for="email">Email:</label>
             <input
+                id="email"
                 value={email}
                 type="text"
                 placeholder="johndoe123@gmail.com"
                 onChange={(event) => setEmail(event.target.value)}
             />
+            <label for="zip">Zip Code:</label>
             <input
+                id="zip"
                 value={zip}
                 type="text"
                 placeholder="12345"
@@ -66,6 +73,7 @@ function Form() {
             />
             <button onClick={submit}>Register</button>
             <button onClick={recall}>Recall</button>
+            
         </form>
 
     );

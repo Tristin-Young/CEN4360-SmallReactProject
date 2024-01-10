@@ -1,0 +1,56 @@
+/* form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1000px;
+  padding: 20px;
+  border: 1px solid rgb(9, 146, 192);
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(6, 51, 66, 0.2);
+}
+
+/* button styling */
+.form button {
+  width: 90%;
+  padding: 20px;
+  margin: 20px 0 0;
+  border: 1px solid rgb(9, 146, 192);
+  border-radius: 5px;
+  background: rgb(9, 157, 206);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* button styling on hover */
+.form button:hover {
+  background: #063342;
+  color: white;
+}
+
+/* input styling */
+.form input {
+  width: 90%;
+  padding: 20px;
+  margin: 20px 0 0;
+  border: 1px solid rgb(9, 146, 192);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* label styling to put the names of the fields to the left of the form field*/
+.form label {
+  width: 90%;
+  margin: 20px 0 0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #063342;
+}
+
